@@ -1,8 +1,9 @@
 // Note Mongo DataBase connection / configuration...!
 const mongoose = require("mongoose")
+require("dotenv").config();
 const dataBaseName = "LearnMongo_Db"
 const dbUrl = process.env.MONGO_URI
-require("dotenv").config();
+
 
 const connectMongoDb = async () =>{
 
