@@ -1,3 +1,2 @@
 node_modules
-src/cridential/cridential.js
-src/database/db.js
+.env

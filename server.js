@@ -16,7 +16,6 @@ const cridentials = require("./src/cridential/cridential")
 // Static variables:
 const app = express()
 const port = 1234;
-const dbUrl = "mongodb+srv://Learn-MongoDb:MongoDb123@back-end-development.7dtygns.mongodb.net/?retryWrites=true&w=majority&appName=back-End-Development"
 let verificationCode = null;
 let verifyEmail = null;
 let expiresAt = null
